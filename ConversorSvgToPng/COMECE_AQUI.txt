@@ -1,0 +1,94 @@
+# ? GUIA RÁPIDO - INÍCIO IMEDIATO
+
+## ?? PASSO A PASSO
+
+### 1?? INSTALAR PACOTE SVG (OBRIGATÓRIO!)
+
+**Opção A - Via Visual Studio (Mais Fácil):**
+1. Abra a solução no Visual Studio
+2. Clique com botão direito no projeto "ConversorSvgToPng"
+3. Selecione "Manage NuGet Packages"
+4. Clique em "Browse"
+5. Procure: **Svg**
+6. Clique "Install" no pacote "Svg"
+7. Aceite as licenças
+
+**Opção B - Via Console:**
+```
+Tools > NuGet Package Manager > Package Manager Console
+```
+Digite:
+```powershell
+Install-Package Svg
+```
+
+### 2?? COMPILAR
+
+1. Pressione **F6** ou vá em **Build > Build Solution**
+2. Aguarde a compilação terminar
+3. Verifique se não há erros
+
+### 3?? EXECUTAR
+
+1. Pressione **F5** ou clique em **Start**
+2. A aplicação abrirá!
+
+### 4?? USAR
+
+1. **Arraste ficheiros SVG** para a área indicada
+2. **Configure o tamanho** (ex: 512x512)
+3. Clique em **?? Converter**
+4. Pronto! Ficheiros na pasta "Convertidos"
+
+---
+
+## ?? RECURSOS DA APLICAÇÃO
+
+? **Drag & Drop** - Arraste ficheiros SVG
+? **Múltiplos Ficheiros** - Converta vários de uma vez
+? **Tamanho Customizável** - 16 a 10.000 pixels
+? **Manter Proporções** - Preserva aspecto original
+? **Pasta Automática** - Cria pasta "Convertidos"
+? **Abrir Pasta** - Botão para abrir a pasta
+? **Interface Moderna** - Design escuro e intuitivo
+? **Barra de Progresso** - Acompanhe em tempo real
+
+---
+
+## ?? PROBLEMAS COMUNS
+
+### ? Erro: "O tipo Svg não pôde ser encontrado"
+**Solução:** Instale o pacote NuGet "Svg" (Passo 1)
+
+### ? Aplicação não inicia
+**Solução:** Compile novamente (F6) e verifique erros
+
+### ? Ficheiros não convertem
+**Solução:** Verifique se os SVG são válidos
+
+---
+
+## ?? FICHEIROS CRIADOS
+
+- **Form1.cs** - Lógica principal
+- **Form1.Designer.cs** - Interface visual
+- **README.md** - Documentação completa
+- **INSTALAR_PACOTE.txt** - Instruções de instalação
+- **DICAS_DE_USO.txt** - Dicas e truques
+- **exemplo_teste.svg** - Ficheiro SVG de teste
+
+---
+
+## ?? DEPOIS DE INSTALAR
+
+1. Use o ficheiro **exemplo_teste.svg** para testar
+2. Converta para PNG
+3. Veja o resultado na pasta "Convertidos"
+
+---
+
+**PRONTO! MÃOS À OBRA! ??**
+
+Se tudo estiver OK, você terá uma aplicação profissional para converter SVG para PNG!
+
+Qualquer dúvida, consulte o README.md ou DICAS_DE_USO.txt

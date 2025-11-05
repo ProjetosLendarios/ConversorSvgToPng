@@ -1,0 +1,50 @@
+# ?? INSTRUÇÕES DE INSTALAÇÃO - PACOTE SVG
+
+## ?? IMPORTANTE - INSTALAR PACOTE NUGET
+
+Para que a aplicação funcione, é **OBRIGATÓRIO** instalar o pacote Svg:
+
+## Método 1: Via Interface do Visual Studio (RECOMENDADO)
+
+1. No **Solution Explorer**, clique com o botão direito em `ConversorSvgToPng`
+2. Selecione **"Manage NuGet Packages..."**
+3. Clique na aba **"Browse"**
+4. No campo de pesquisa, digite: **Svg**
+5. Selecione o pacote **"Svg"** (autor: svg-net)
+6. Clique em **"Install"**
+7. Aceite as licenças
+
+## Método 2: Via Package Manager Console
+
+1. No Visual Studio, vá em **Tools** > **NuGet Package Manager** > **Package Manager Console**
+2. Execute o comando:
+
+```powershell
+Install-Package Svg -Version 3.4.4
+```
+
+## Método 3: Via Terminal (se o método acima não funcionar)
+
+Como o projeto é .NET Framework antigo, você também pode baixar manualmente:
+
+1. Baixe o pacote NuGet do Svg em: https://www.nuget.org/packages/Svg/
+2. Extraia o arquivo .nupkg (renomeie para .zip se necessário)
+3. Copie as DLLs para a pasta do projeto
+
+## ? Verificar Instalação
+
+Após instalar o pacote, compile o projeto (F6 ou Build > Build Solution).
+
+Se não houver erros, a instalação foi bem-sucedida! ?
+
+## ?? Pronto para Usar!
+
+Depois de instalar o pacote Svg, a aplicação estará pronta para:
+- ? Arrastar e soltar ficheiros SVG
+- ? Converter para PNG no tamanho desejado
+- ? Salvar na pasta "Convertidos"
+- ? Abrir a pasta com um clique
+
+---
+
+**Qualquer dúvida, verifique se o pacote Svg está instalado corretamente!**

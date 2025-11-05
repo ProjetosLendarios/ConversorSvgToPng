@@ -1,0 +1,142 @@
+# ?? DICAS DE USO - CONVERSOR SVG PARA PNG
+
+## ?? Funcionalidades Principais
+
+### 1. Drag & Drop Inteligente
+- Arraste **múltiplos ficheiros SVG** de uma vez
+- A área de drop muda de cor quando os ficheiros estão sobre ela
+- Suporta arrastar de qualquer pasta do Windows
+
+### 2. Seleção de Ficheiros
+- Clique na **área de drop** para abrir o seletor de ficheiros
+- Selecione múltiplos ficheiros (Ctrl + Clique)
+- Apenas ficheiros .SVG são aceites
+
+### 3. Controle de Tamanho
+- **Largura e Altura**: De 16 a 10.000 pixels
+- **Manter Proporções**: Quando ativado, mantém o aspecto original do SVG
+- **Dica**: Para ícones, use 16, 32, 64, 128, 256, 512 pixels
+
+### 4. Tamanhos Comuns
+
+#### Ícones
+- 16x16 - Favicon pequeno
+- 32x32 - Ícone padrão Windows
+- 64x64 - Ícone médio
+- 128x128 - Ícone grande
+- 256x256 - Ícone extra grande
+- 512x512 - Ícone HD
+
+#### Redes Sociais
+- 1200x630 - Facebook, LinkedIn
+- 1080x1080 - Instagram (quadrado)
+- 1080x1920 - Instagram Stories
+- 1200x675 - Twitter
+- 800x800 - Avatar geral
+
+#### Web
+- 1920x1080 - HD Full
+- 1280x720 - HD
+- 800x600 - Web padrão
+
+### 5. Conversão em Lote
+1. Adicione todos os ficheiros SVG desejados
+2. Configure o tamanho
+3. Clique em "?? Converter"
+4. Aguarde a barra de progresso completar
+5. Os ficheiros aparecem na pasta "Convertidos"
+
+### 6. Gestão de Ficheiros
+- **?? Abrir Pasta**: Abre a pasta "Convertidos" no Explorer
+- **??? Limpar**: Remove todos os ficheiros da lista (não apaga os convertidos)
+- **Lista**: Mostra todos os ficheiros adicionados
+
+### 7. Nomenclatura Automática
+Os ficheiros são salvos com o formato:
+```
+nome_original_512x512.png
+```
+
+Se já existir, adiciona contador:
+```
+nome_original_512x512_1.png
+nome_original_512x512_2.png
+```
+
+### 8. Feedback Visual
+- **Amarelo**: A converter ficheiro
+- **Verde**: Conversão bem-sucedida
+- **Vermelho**: Erro na conversão
+- **Barra de Progresso**: Mostra progresso em tempo real
+
+## ?? Truques e Dicas
+
+### Converter para Múltiplos Tamanhos
+1. Adicione os ficheiros
+2. Converta para o primeiro tamanho (ex: 512x512)
+3. Mude o tamanho (ex: 256x256)
+4. Converta novamente
+5. Repita para cada tamanho desejado
+
+### Manter Ficheiros Organizados
+A pasta "Convertidos" mantém todos os PNG. Considere:
+- Criar subpastas por projeto
+- Renomear ficheiros após conversão se necessário
+- Apagar ficheiros antigos regularmente
+
+### Performance
+- A conversão é assíncrona (não trava a interface)
+- Pode converter centenas de ficheiros de uma vez
+- Ficheiros maiores demoram mais
+
+### Qualidade
+- PNG é salvo com qualidade máxima
+- Transparência é preservada
+- Cores são mantidas fielmente
+
+## ?? Possíveis Problemas
+
+### Ficheiro não converte
+- Verifique se o SVG é válido
+- Abra o SVG num editor (Inkscape, Illustrator)
+- Tente simplificar o SVG se for muito complexo
+
+### Imagem cortada
+- Desative "Manter Proporções"
+- Ajuste manualmente largura e altura
+- Verifique o viewBox do SVG original
+
+### Cores erradas
+- Alguns SVGs usam perfis de cor específicos
+- Tente exportar o SVG novamente da fonte
+
+### Pasta não abre
+- Aguarde a primeira conversão
+- A pasta é criada automaticamente
+- Verifique permissões da pasta
+
+## ?? Casos de Uso
+
+### Design de Ícones
+1. Crie ícones em SVG (vetorial)
+2. Converta para múltiplos tamanhos PNG
+3. Use nos seus projetos
+
+### Logos
+1. Tenha o logo em SVG
+2. Converta para diferentes tamanhos
+3. Use conforme necessário (web, impressão, etc)
+
+### Assets de UI/UX
+1. Desenhe em vetorial
+2. Exporte para PNG
+3. Integre nas aplicações
+
+### Recursos Web
+1. SVGs originais para edição
+2. PNGs para compatibilidade
+3. Diferentes tamanhos para responsive design
+
+---
+
+**Aproveite a aplicação! Se tiver sugestões, deixe o feedback! ??**
