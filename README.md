@@ -27,8 +27,12 @@
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Detalhes Técnicos](#-detalhes-técnicos)
 - [Resolução de Problemas](#-resolução-de-problemas)
+- [Casos de Uso](#-casos-de-uso)
 - [Contribuir](#-contribuir)
 - [Licença](#-licença)
+- [Autor](#-autor)
+- [Agradecimentos](#-agradecimentos)
+- [Suporte](#-suporte)
 
 ---
 
